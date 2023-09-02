@@ -10,7 +10,6 @@ body {
 
 
 
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,17 +17,16 @@ header {
     color: #ffffff;
 }
 
-
+/* This is for the H-O-R-I-N text on the Top Left of Header*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This is for the S-E-O text on the Top Left of Header*/
 #seo {
     color: #d9dcd6;
 }
-
-
 
 nav {
     padding-top: 15px;
@@ -64,23 +62,28 @@ main {
     background-position: center;
 }
 
+
+
 body section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This is for the titles in the articles body section */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* These settings are applied to the 1st and 3rd articles */
 .photo_left_side {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
+/* These settings are applied to the 2nd article only */
 #photo_right_side {
     float: right;
     margin-left: 25px;
@@ -112,6 +115,7 @@ aside section {
     color: #ffffff;
 }
 
+/* This text is used for the aside section titles */
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -122,6 +126,8 @@ aside section img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
 
 footer {
     padding: 30px;
